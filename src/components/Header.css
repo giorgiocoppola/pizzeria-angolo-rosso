@@ -1,0 +1,24 @@
+.Header {
+    text-align:center;
+    font-size:30px;
+    font-family: 'Arial';
+    color:red;
+    width:1278px;
+    height: 260px;
+
+}
+
+span {
+    font-size:30px;
+    margin: 90px;
+    font-family: 'Times New Roman';
+}
+
+a {
+    text-decoration: none;
+    color:blue;
+}
+
+a:hover {
+    color:black;
+}

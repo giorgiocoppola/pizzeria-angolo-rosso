@@ -1,0 +1,19 @@
+
+
+
+.App-header {
+     display:flex;
+     flex-direction:column;
+     width: max-content;
+    
+}
+
+.pizze {
+     width:max-content;
+     display:flex;
+     position:relative;
+     left: 40px;
+     top:40px;
+}
+
+
