@@ -7,7 +7,7 @@ function Pizze(props) {
                 <img src={props.img} alt={props.nome} width="300px" />
                 <h4>{props.nome}</h4>
                 <p>{props.ingredienti}</p>
-                <p>{props.prezzo} €</p>
+                <p className="prezzo">{props.prezzo} €</p>
                 <button>Ordina</button>
             </div>     
     )
