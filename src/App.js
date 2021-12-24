@@ -1,9 +1,9 @@
 import Header from './components/Header';
 import './App.css';
 import Pizze from './components/Pizze';
-import pizze from './components/pizza';
-import pizze2 from './components/pizza2';
-import pizze3 from './components/pizza3';
+import pizze from './mincomponents/pizza';
+import pizze2 from './mincomponents/pizza2';
+import pizze3 from './mincomponents/pizza3';
 
 
 function App() {
