@@ -4,7 +4,7 @@ import Pizze from './components/Pizze';
 import pizze from './mincomponents/pizza';
 import pizze2 from './mincomponents/pizza2';
 import pizze3 from './mincomponents/pizza3';
-
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -29,7 +29,7 @@ function App() {
        return <Pizze {...pizza} />
         })} 
        </div>
-
+      <Footer />
       </article>
       
 
