@@ -20,13 +20,13 @@ function App() {
        <div className="pizze">
        {
          pizze2.map((pizza) =>{
-       return <Pizze {...pizza} />
+       return <Pizze  key={pizza.id} {...pizza} />
         })} 
        </div>
        <div className="pizze">
        {
          pizze3.map((pizza) =>{
-       return <Pizze {...pizza} />
+       return <Pizze key={pizza.id} {...pizza} />
         })} 
        </div>
       <Footer />
