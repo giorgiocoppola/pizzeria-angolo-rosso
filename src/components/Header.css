@@ -20,5 +20,14 @@ a {
 }
 
 a:hover {
+   
     color:black;
 }
+.sottotitolo {
+    color:green;
+    font-size:30px;
+    font-family: sans-serif;
+
+}
+
+

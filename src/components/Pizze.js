@@ -16,7 +16,11 @@ function Pizze(props) {
                 <h4>{props.nome}</h4>
                 <p>{props.ingredienti}</p>
                 <p className="prezzo"onClick={()=>alert(`prezzo: ${props.prezzo} €`)}>{props.prezzo} €</p>
-                <button onClick={()=>alert(`nome: ${props.nome}`)}>Ordina</button>
+                <div className="aggdec">
+                <button>+</button>
+                <button>-</button>
+                </div>
+                <button onClick={()=>alert(`${props.nome}`)}>Ordina</button>
             </div>     
     )
 }
