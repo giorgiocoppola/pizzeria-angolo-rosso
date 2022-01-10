@@ -30,4 +30,12 @@ a:hover {
 
 }
 
+.title {
+    color:red;
+}
+
+.title:hover {
+    color:red;
+}
+
 

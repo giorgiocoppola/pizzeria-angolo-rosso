@@ -35,14 +35,8 @@ p {
     font-size:30px;
 }
 
-.aggdec {
-    border:1px solid black;
-    width:500px;
-    display:flex;
-}
 
-
-button {
+.ordina {
     padding:16px 16px;
     margin-left:150px;
     font-size:20px;
@@ -50,3 +44,30 @@ button {
     border-color:green;
     color:white;
 }
+
+.conteggio {
+    position: relative;
+    left:50px;
+    bottom:20px;
+    width:300px;
+    text-align:center;
+}
+
+.cont {
+    font-size:20px;
+    margin:20px;
+    background-color: red;
+    border-color:red;
+    color:white;
+}
+
+.dim {
+    font-size:30px;
+}
+
+.mes {
+    font-size:20px;
+    color:red;
+    font-family: cursive;
+}
+

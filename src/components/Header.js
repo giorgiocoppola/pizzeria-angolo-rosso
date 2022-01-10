@@ -17,7 +17,7 @@ function Header() {
     }
     return (
         <div className="Header">
-        <h1 onClick={inseriscidescr}>Pizzeria <br /> Angolo Rosso</h1>
+        <h1 onClick={inseriscidescr}><a className="title" href="#">Pizzeria <br /> Angolo Rosso</a></h1>
         <p className="sottotitolo">{titolo}</p>
              <div className="menu">
                 {
