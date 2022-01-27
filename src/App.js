@@ -1,40 +1,29 @@
-import Header from './components/Header';
-import './App.css';
-import Pizze from './components/Pizze';
-import pizze from './mincomponents/pizza';
-import pizze2 from './mincomponents/pizza2';
-import pizze3 from './mincomponents/pizza3';
-import Footer from './components/Footer';
+import React from 'react'
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom'
+import Home from './Menu/Home';
+import Contatti from './Menu/Contatti';
+import Descrizione from './Menu/Descrizione';
+import Pizza from './Menu/Pizza';
+import Messaggioordine from './Menu/Messaggioordine';
+import InvioForm from './Menu/InvioForm';
+
+
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <article className="App-header">
-       <Header/>
-       <div className="pizze">
-       {
-         pizze.map((pizza) =>{
-       return <Pizze {...pizza} />
-        })} 
-       </div>
-       <div className="pizze">
-       {
-         pizze2.map((pizza) =>{
-       return <Pizze  key={pizza.id} {...pizza} />
-        })} 
-       </div>
-       <div className="pizze">
-       {
-         pizze3.map((pizza) =>{
-       return <Pizze key={pizza.id} {...pizza} />
-        })} 
-       </div>
-      <Footer />
-      </article>
-      
-
-    </div>
-  );
+  return <Router>
+  <Routes>
+  <Route path = '/'  element = {<Home />} />
+  <Route path = '/descrizione' element = {<Descrizione />} />
+  <Route path = '/pizza' element = {<Pizza />} />
+  <Route path = '/contatti' element = {<Contatti />} />
+  <Route path = '/*' element = {<Messaggioordine />} />
+  <Route path = '/mess' element = {<InvioForm />} />
+</Routes>
+  
+</Router>
 }
 
 export default App;
+
