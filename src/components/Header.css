@@ -3,15 +3,21 @@
     font-size:30px;
     font-family: 'Arial';
     color:red;
-    width:1278px;
-    height: 260px;
     width:1260px;
+    height: 260px;
+   
+    
+
+    
+   
+   
 }
 
 span {
     font-size:30px;
     margin: 90px;
     font-family: 'Times New Roman';
+   
 }
 
 a {
@@ -23,19 +29,9 @@ a:hover {
    
     color:black;
 }
-.sottotitolo {
-    color:green;
-    font-size:30px;
-    font-family: sans-serif;
 
-}
 
 .title {
     color:red;
+ 
 }
-
-.title:hover {
-    color:red;
-}
-
-

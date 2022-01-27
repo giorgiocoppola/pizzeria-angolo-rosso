@@ -1,34 +1,30 @@
-import React, {useState} from 'react'
+import React, { useState} from 'react'
+import { Link } from 'react-router-dom'
 import './Header.css'
+import '../Menu/Home'
+import '../Menu/Descrizione'
+import '../Menu/Contatti'
+import '../Menu/Pizza'
 
 
-const elementilink = ['HOME','DESCRIZIONE','PIZZA','CONTATTI'];
 
 function Header() {
-    const [titolo,setTitolo] = useState("");
 
-    const inseriscidescr = () => {
-        if(titolo === "") {
-          setTitolo("Il piacere della pizza!!!");
-        } else {
-            setTitolo("");
-        }
-    
-    }
     return (
         <div className="Header">
-        <h1 onClick={inseriscidescr}><a className="title" href="#">Pizzeria <br /> Angolo Rosso</a></h1>
-        <p className="sottotitolo">{titolo}</p>
+        <h1>Pizzeria <br /> Angolo Rosso</h1>
              <div className="menu">
-                {
-                   elementilink.map((elementolink) => {
-                   return  <span><a href="#">{elementolink}</a></span>;
-                 })
-                }
+                
+                    <span><Link to = "/">HOME</Link></span> 
+                    <span><Link to = "/descrizione">DESCRIZIONE</Link></span>
+                    <span><Link to = "/pizza">PIZZA</Link></span>
+                    <span><Link to = "/contatti">CONTATTI</Link></span>            
+
              </div>
+    
          
         </div>
-    )
-}
+    );}
+    
 
 export default Header;
