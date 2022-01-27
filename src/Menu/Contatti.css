@@ -1,0 +1,85 @@
+.contatti-titolo {
+    text-align:center;
+    font-family:'Times New Roman';
+    font-size:50px;
+    color:green;
+    
+}
+
+label {
+    font-size:30px;
+    margin-left:30px;
+    
+}
+
+.cap1 {
+  position:relative;
+  left:70px;
+  
+ 
+}
+
+.text , .email, .cap, .provincia, .telefono  {
+    font-size:30px;
+    margin-left: 30px;
+    margin-top:40px;
+   
+    
+}
+
+.cap {
+    width:150px;
+    position:relative;
+    left:60px;
+    
+}
+
+.provincia {
+    width:50px;
+    text-align: center;
+    position:relative;
+    left:60px;
+    
+}
+
+form {
+    width: 1200px;
+    height: 950px;
+    margin-left:30px;
+    margin-top:50px;
+    position:relative;
+    
+ 
+}
+
+.invform {
+    color:white;
+}
+
+.invform:hover {
+    color:white;
+}
+
+.messaggio {
+    margin-top:80px;
+    margin-left:28px;
+    border:1px solid black;
+}
+
+.mess2 {
+    
+    position:absolute;
+    top:350px;
+    
+}
+
+.btn {
+    font-size:40px;
+    margin-left: 550px;
+    margin-top:50px;
+    color:white;
+    background-color: green;
+    border-color:green;
+    padding:10px;
+    
+}
