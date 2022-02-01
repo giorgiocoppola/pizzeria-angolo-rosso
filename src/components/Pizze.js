@@ -47,7 +47,7 @@ const ordina = () => {
         setTimeout(function() {setMessage2("")},3000);
       
     } else {
-        setMessage2("Aggiunto nell'ordine");
+        setMessage2("Ordine aggiunto");
         setTimeout(function() {setMessage2("")},3000);
     }
 }

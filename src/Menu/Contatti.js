@@ -19,6 +19,9 @@ function Contatti() {
     const [persone,setPersone] = useState([]);
     
     const handleSubmit = (e) => {
+
+      
+
         e.preventDefault();
         setNome("");
         setCognome("");
@@ -46,7 +49,7 @@ function Contatti() {
        
    
     }
-
+    
     useEffect( ()=> {
         console.log(persone);
     },[persone]);
@@ -61,6 +64,7 @@ function Contatti() {
                <form>
                    <label forHtml="nome">Nome:</label>
                    <input type="text" id="nome" value={nome} onChange={(e) => setNome(e.target.value)} className="text" />
+                   
  
 
                    <label forHtml="cognome">Cognome:</label>

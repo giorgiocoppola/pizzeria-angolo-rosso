@@ -22,7 +22,7 @@ function Descrizione() {
            Dalla Pizzeria Angolo Rosso non poteva mancare un'ottima pizza Romana, la pizza 4 stagioni, la pizza Diavola.<br /><br />
            Inoltre spazio interno ed esterno per gustare le tue pizze. Se invece preferisci ricevere la tua pizza direttamente
            a casa, offriamo anche il Servizio a Domicilio gratuito con ordini di pizze online.<br /><br />
-           Assapora le tue pizze fatte ad arte, scegli ANGOLO ROSSO PIZZERIA!!! </p>
+           Assapora le tue pizze fatte ad arte, scegli <span style={{color:'red'}}>PIZZERIA ANGOLO ROSSO !!!</span></p>
            <Footer />
         </article>
         </div>
