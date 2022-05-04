@@ -53,7 +53,7 @@ const ordina = () => {
 }
     return (
            <div className="Pizze">
-                <img src={img} alt={nome} width="300px" />
+                <img src={img} alt={nome} width="300px" height="300px" />
                 <h4>{nome}</h4>
                 <p>{ingredienti}</p>
                 <p className="prezzo">{prezzo} €</p>
